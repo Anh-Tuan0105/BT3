@@ -207,8 +207,8 @@ namespace BT3
             var data = Data.Gi();
             Console.Clear();
             Terminal.gI().ShowMenuStudent1(data.students);
-            Terminal.gI().Print("ID sinh viên cần xóa: ", 0, data.students.Count + 2);
-            Console.SetCursorPosition(22, data.students.Count + 2);
+            Terminal.gI().Print("Vị trí sinh viên cần xóa: ", 0, data.students.Count + 2);
+            Console.SetCursorPosition(26, data.students.Count + 2);
             Console.ForegroundColor = ConsoleColor.White;
             int ID = int.Parse(Console.ReadLine());
             bool isSuccess = data.RemoveStudent(ID - 1);

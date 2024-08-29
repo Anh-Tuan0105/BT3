@@ -38,7 +38,7 @@ namespace BT3
                 Console.Title = currentTitle;
                 Thread.Sleep(time);
             }
-        }                                             // gắn giá trị mặc định: nếu không được chuyền vô, nó tự lấy cái t gán
+        }                                            
         public void EfectPrintf(string s, int x, int y, ConsoleColor color = ConsoleColor.White, int time = 100)
         {
             string Stringsub = "";
